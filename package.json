@@ -1,6 +1,6 @@
 {
   "name": "@authenio/samlify-xsd-schema-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validator module powered by xsd-schema-validator",
   "main": "build/index.js",
   "scripts": {

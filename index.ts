@@ -1,4 +1,4 @@
-import validator from '@authenio/xsd-schema-validator';
+import * as validator from '@authenio/xsd-schema-validator';
 import * as fs from 'fs';
 import * as path from 'path';
 
