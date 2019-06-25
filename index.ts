@@ -28,19 +28,17 @@ const setSchemaDir = (v: any) => {
 
 const mod = setSchemaDir(new validator());
 
-export default {
-  validate: (xml: string) => {
-    return new Promise((resolve, reject) => {
-      mod.validateXML(xml, xsd, (err, result) => {
-        if (err) {
-          console.error('[ERROR] validateXML', err);
-          return reject('ERR_EXCEPTION_VALIDATE_XML');
-        }
-        if (result.valid) {
-          return resolve('SUCCESS_VALIDATE_XML');
-        }
-        return reject('ERR_INVALID_XML');
-      });
+export const validate = (xml: string) => {
+  return new Promise((resolve, reject) => {
+    mod.validateXML(xml, xsd, (err, result) => {
+      if (err) {
+        console.error('[ERROR] validateXML', err);
+        return reject('ERR_EXCEPTION_VALIDATE_XML');
+      }
+      if (result.valid) {
+        return resolve('SUCCESS_VALIDATE_XML');
+      }
+      return reject('ERR_INVALID_XML');
     });
-  }
+  });
 };
