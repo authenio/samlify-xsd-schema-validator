@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@authenio/xsd-schema-validator@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@authenio/xsd-schema-validator/-/xsd-schema-validator-0.7.2.tgz#2d2cb936cbc141ef9921c8c8aab1a576b9859a8c"
-  integrity sha512-jXgGk6abyY3qQ0CSlPggXEKjHMMHvQetJtu8F+FTvqWquxT+z1xdNeQ7QnSEbj8quAuVe+zVLCGqvZRks3uD9w==
+"@authenio/xsd-schema-validator@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@authenio/xsd-schema-validator/-/xsd-schema-validator-0.7.3.tgz#abbf5710705bfab3394aca8b9d5a9e8429873897"
+  integrity sha512-Jhc/Hxv90bacZr0Fv+u+PEb440zPh4mO6rw+bzEAIBiFLKCtRa/BvKGRxPdCAwsGRPuwl2hFqQGF+Lfz6Q8kFg==
 
 "@types/node@^12.0.4":
   version "12.0.4"
